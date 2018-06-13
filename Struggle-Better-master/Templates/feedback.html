@@ -1,0 +1,67 @@
+<html>
+<head>
+  <title>Feedback</title>
+  <link rel="stylesheet" href= "/resource/feedback.css">
+  <link rel="shortcut icon" href="resource/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div class="navbar">
+          <a href = "main.html"><button class="navbtn">HOME</button></a>
+          <a href = "stress.html"><button class="navbtn">STRESS</button></a>
+          <a href = "nutrition.html"><button class="navbtn">NUTRITION</button></a>
+          <a href = "time.html"><button class="navbtn">TIME MANAGEMENT</button></a>
+          <a href = "budget.html"><button class="navbtn">BUDGET MANAGEMENT</button></a>
+          <a href = "blog.html"><button class="navbtn">BLOG</button></a>
+          <a href = "feedback.html"><button class="navbtn">FEEDBACK</button></a>
+          <a href = "{{log}}"><button class="navbtn">{{text}}</button></a>
+  </div>
+  <!-- First Image -->
+    <div class="imageword">
+          <img class="bgimg-1" src="http://skatecanada.ns.ca/wp-content/uploads/2015/02/feedback.png">
+    </div>
+    <h1>Feedback</h1>
+    <h4><em>(Scroll down)</h4>
+
+
+  <h3><b><i>Hope that we were able to help you struggle better!</i></b></h3>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script src="resource/feedback.js"></script>
+  <div id="form">
+    <form method="post" name="feedback_form">
+      <p>Name: <input type="text" name="name" id="name"></p>
+      <p>E-mail: <input type="text" name="email" id="e-mail"></p>
+      <p> Which page did you find the most helpful?
+        <br>
+        Stress<input type="radio" name="tab" id="option_stress" value=1>
+        <br>
+        Nutrition<input type="radio" name="tab" id="option_nutrition" value=2>
+        <br>
+        Time Management<input type="radio" name="tab" id="option_time" value=3>
+        <br>
+        Budget Management<input type="radio" name="tab" id="option_budget" value=4>
+        <br>
+      </p>
+      <label>Please leave a comment below:
+        <p></p>
+        <textarea name="comment" id="comment"></textarea>
+      </label>
+      <button type="submit" name="submit_feedback" id="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="thank_you">
+    <i><h3>Thank You For Your Feedback!</h3></i>
+    <img class="thankyouimg" src="http://3.bp.blogspot.com/-vQ2uO92EPSE/VmuhOOY5uvI/AAAAAAAAMDE/ywYizkA4awQ/s640/Happy_minions.jpg" >
+  </div>
+</body>
+
+
+<div class="spacer"></div>
+
+<footer>
+  <p>This website has been created by Tania Nelzy, Anthony Portillo, and Mayckol Zuniga.</p>
+  <p> &copy; Struggle Better </p>
+</footer>
+
+</html>
